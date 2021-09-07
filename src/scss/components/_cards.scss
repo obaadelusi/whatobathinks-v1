@@ -1,0 +1,55 @@
+@use '../abstracts/variables' as *;
+
+.card {
+   max-width: 380px;
+
+   &-wrapper {
+      display: flex;
+      gap: 20px;
+   }
+   &__img {
+      background-color: blue;
+      height: 120px;
+   }
+   &__content {
+      padding: 24px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      justify-content: space-between;
+   }
+   &__title {
+      font-size: $h2;
+      margin-bottom: 0;
+   }
+   &__list {
+      display: flex;
+      gap: 1rem;
+      padding: 0;
+   }
+   &__item {
+      padding: 2px 5px;
+      border-radius: 4px;
+      background-color: #e5e5e5;
+      &--active {
+         font-weight: bold;
+         background-color: lightblue;
+      }
+   }
+   &__link {
+      background-color: darkblue;
+      color: #fff;
+      text-decoration: none;
+      width: fit-content;
+      width: -moz-fit-content;
+      padding: 0.6em 1em;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 300ms ease;
+      &:hover {
+         background-color: blue;
+         color: #fff;
+      }
+   }
+}

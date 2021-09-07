@@ -1,0 +1,17 @@
+// Add layout styling for your footer
+@use '../abstracts' as *;
+
+.footer {
+   background-color: $main-clr;
+   padding: 1.25em;
+   &__link {
+      font-family: $heading-font;
+      text-decoration: none;
+      margin-right: 4vw;
+      color: #fff;
+
+      &:hover {
+         color: $sec-clr;
+      }
+   }
+}

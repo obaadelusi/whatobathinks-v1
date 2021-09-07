@@ -1,0 +1,39 @@
+// Add your button styles here
+@use '../abstracts' as *;
+
+.button {
+   display: inline-flex;
+   align-items: center;
+   gap: 8px;
+   width: fit-content;
+   font-size: $p;
+   padding: 0.8em 1em;
+   text-decoration: none;
+   cursor: pointer;
+   transition: background-color 300ms ease-in-out;
+
+   &--pry {
+      @extend .button;
+      color: $text-white;
+      background-color: $sec-clr;
+      border: 2px solid $main-clr;
+      font-weight: 500;
+
+      i {
+         color: $main-clr;
+      }
+
+      &:hover {
+         background-color: hsl($sec-hue, 98%, 47%);
+      }
+   }
+
+   &--close {
+      @extend .button;
+      color: $sec-clr;
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      font-weight: 500;
+   }
+}

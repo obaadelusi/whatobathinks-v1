@@ -1,0 +1,2 @@
+"use strict";var hamIcon=document.querySelector("#ham-icon"),mobileMenu=document.querySelector("#mobile-menu"),buttonClose=document.querySelector("#button-close");hamIcon.addEventListener("click",(function(){mobileMenu.classList.toggle("show-mobile-menu")})),buttonClose.addEventListener("click",(function(){mobileMenu.classList.remove("show-mobile-menu")}));
+//# sourceMappingURL=index.js.map

@@ -1,0 +1,22 @@
+/* Add all your variables here */
+
+// Font Variables
+$font-stack: 'Raleway', system-ui, sans-serif;
+$heading-font: 'Inter', system-ui, sans-serif;
+
+$h1: clamp(4rem, 10vw, 8.25rem);
+$h2: clamp(2.375rem, 4vw, 4rem);
+$h3: clamp(1.875rem, 2.5vw, 2.25rem);
+$big-p: clamp(1.25rem, 2vw, 2rem);
+$p: clamp(1.0625rem, 1.5vw, 1.25rem);
+$a-link: clamp(1rem, 1.5vw, 1.125rem);
+
+// Colour Variables
+$main-hue: 237;
+$sec-hue: 37;
+
+$main-clr: hsl($main-hue, 78%, 23%);
+$sec-clr: hsl($sec-hue, 98%, 53%);
+$text-grey: hsl(0, 0%, 10%);
+$text-white: hsl(0, 0%, 100%);
+$main-clr-100: hsl($main-hue, 100%, 98%);

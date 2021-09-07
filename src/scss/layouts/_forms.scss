@@ -1,0 +1,119 @@
+// Add layout styling for your forms
+@use '../abstracts/' as *;
+
+.form {
+   max-width: 440px;
+   padding: 4em 2em;
+   background-color: inherit;
+
+   &__heading {
+      text-align: center;
+   }
+   &__group {
+      position: relative;
+      min-height: 48px;
+      margin-bottom: 1.5em;
+   }
+   &__input {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      font-size: $p;
+      border: 1px solid $sec-clr;
+      outline: none;
+      padding: 1rem;
+      background: #fff;
+   }
+   &__label {
+      position: absolute;
+      left: 1em;
+      top: 0.9em;
+      background: #fff;
+      color: #888;
+      font-size: 1rem;
+      pointer-events: none;
+      z-index: 1;
+      transition: all 100ms ease-in;
+   }
+   &__button {
+      display: block;
+      width: 100%;
+      padding: 14px 0;
+      outline: none;
+      border: 2px solid $main-clr;
+      background-color: $sec-clr;
+      color: #fff;
+      font-size: $a-link;
+      cursor: pointer;
+      transition: 300ms;
+
+      &:hover {
+         box-shadow: 0 10px 36px #00000026;
+      }
+   }
+}
+
+/* Input:focus move up label */
+.form__input:focus + .form__label {
+   top: -0.5em;
+   left: 0.8em;
+   color: $main-clr;
+   font-size: 12px;
+   font-weight: 500;
+   padding: 2px;
+   border-top: 1px solid $sec-clr;
+   border-radius: 2px;
+   z-index: 1;
+}
+
+/*Input:focus sticky top label*/
+.form__input:not(:placeholder-shown):not(:focus) + .form__label {
+   top: -0.5em;
+   left: 0.8em;
+   font-size: 12px;
+   font-weight: 500;
+   padding: 2px;
+   border-top: 1px solid $sec-clr;
+   border-radius: 2px;
+   z-index: 1;
+}
+
+/* textarea styling */
+.form__textarea {
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 1em;
+   font-size: $a-link;
+   border: 1px solid $sec-clr;
+   outline: none;
+   background: #fff;
+}
+
+/* textarea:focus move up label */
+.form__textarea:focus + .form__label {
+   top: -0.5em;
+   left: 0.8em;
+   color: $main-clr;
+   font-size: 12px;
+   font-weight: 500;
+   padding: 2px;
+   border-top: 1px solid $sec-clr;
+   border-radius: 2px;
+   z-index: 1;
+}
+
+/* textarea focus sticky top label */
+.form__textarea:not(:placeholder-shown):not(:focus) + .form__label {
+   top: -0.5em;
+   left: 0.8em;
+   font-size: 12px;
+   font-weight: 500;
+   padding: 2px;
+   border-top: 1px solid $sec-clr;
+   border-radius: 2px;
+   z-index: 1;
+}
