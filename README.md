@@ -1,22 +1,21 @@
-<h1 align="center">Hi 👋, I'm Obafunsho</h1>
-<h3 align="center">A frontend developer in Winnipeg, Canada</h3>
+<h1 align="center">Hi 👋, I'm Oba</h1>
+<h3 align="center">A Frontend Web Developer</h3>
 
 [![whatobathinks.com](/images/whatobathinks-hero.PNG 'whatobathinks portfolio')](https://whatobathinks.com)
 
--  🔭 I’m currently freelancing as a **Frontend Developer**
+-   🔭 I’m currently job searching as a **Frontend Developer**
 
--  👯 I’m looking to collaborate on **JavaScript projects**
+-   👯 I’m looking to collaborate on **ERP projects**
 
--  📝 I write articles on [blog.whatobathinks.com](https://blog.whatobathinks.com)
+-   📝 I write articles on [blog.whatobathinks.com](https://blog.whatobathinks.com)
 
--  📫 Reach me on => **whatobathinks@gmail.com**
+-   📫 Reach me on => **adelusiobafunsho@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/whatobathinks" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="whatobathinks" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/funshoadelusi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="funshoadelusi" height="30" width="40" /></a>
-<a href="https://fb.com/whatobathinks" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="whatobathinks" height="30" width="40" /></a>
-<a href="https://instagram.com/whatobathinks" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="whatobathinks" height="30" width="40" /></a>
+<a href="https://twitter.com/obaadelusi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="obaadelusi" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/obaadelusi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="funshoadelusi" height="30" width="40" /></a>
+<a href="https://instagram.com/obaadelusi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="obaadelusi" height="30" width="40" /></a>
 <a href="https://dribbble.com/obafunsho" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="obafunsho" height="30" width="40" /></a>
 <a href="/https://blog.whatobathinks.com/rss.xml" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://blog.whatobathinks.com/rss.xml" height="30" width="40" /></a>
 </p>

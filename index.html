@@ -4,7 +4,7 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>whatobathinks - Web Developer in Lagos, Nigeria</title>
+      <title>Oba Adelusi - whatobathinks - Web Developer in Canada</title>
       <link
          rel="shortcut icon"
          href="images/whatobathinks-favicon.png"
@@ -16,7 +16,7 @@
       ></script>
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link
-         href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Inter:wght@400;500;700&display=swap"
+         href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Inter:wght@400;500;700&display=swap"
          rel="stylesheet"
       />
       <link rel="stylesheet" href="build/css/main.css" />
@@ -33,7 +33,9 @@
             <a href="https://blog.whatobathinks.com" class="mobile-menu__link"
                ><span>//</span>Blog</a
             >
-            <a href="#" class="mobile-menu__link"><span>//</span>Portfolio</a>
+            <a href="#portfolio" class="mobile-menu__link"
+               ><span>//</span>Portfolio</a
+            >
             <a href="#" class="mobile-menu__link"><span>//</span>Contact</a>
             <a href="#" class="btn subscribe-btn">Subscribe</a>
          </div>
@@ -49,19 +51,31 @@
          </div>
          <nav class="navbar__links">
             <a href="/" class="navbar__link">Home</a>
-            <a href="/views/blog-archive.html" class="navbar__link">Blog</a>
-            <a href="#" class="navbar__link">Portfolio</a>
-            <a href="#" class="navbar__link">Contact</a>
+            <!-- switch in dev. /views/blog-archive.html -->
+            <a href="https://blog.whatobathinks.com" class="navbar__link"
+               >Blog</a
+            >
+            <a href="#portfolio" class="navbar__link">Portfolio</a>
+            <a href="#contact" class="navbar__link">Contact</a>
          </nav>
          <div class="social-icons">
-            <a href="#" class="social-link"
-               ><i class="fab fa-linkedin fa-lg"></i
-            ></a>
-            <a href="#" class="social-link"
-               ><i class="fab fa-instagram fa-lg"></i
-            ></a>
-            <a href="#" class="social-link"
+            <a
+               href="https://github.com/obaadelusi"
+               target="_blank"
+               class="social-link"
                ><i class="fab fa-github fa-lg"></i
+            ></a>
+            <a
+               href="https://twitter.com/obaadelusi"
+               target="_blank"
+               class="social-link"
+               ><i class="fab fa-twitter fa-lg"></i
+            ></a>
+            <a
+               href="https://linkedin.com/in/obaadelusi"
+               target="_blank"
+               class="social-link"
+               ><i class="fab fa-linkedin fa-lg"></i
             ></a>
          </div>
       </header>
@@ -74,22 +88,18 @@
                   alt="obafunsho"
                   style="width: 120px"
                />
-               <p><span>OBA</span>FUNSHO<br />ADELUSI</p>
+               <p><span>OBA</span><br />ADELUSI</p>
             </div>
 
             <div class="hero__role">
                <h1>Web Developer</h1>
-               <p>
-                  I help small businesses and online creators sell more online.
-               </p>
+               <p>Using data and software to help solve business problems.</p>
             </div>
 
             <ul class="hero__points">
-               <li>
-                  <i class="fa fa-bolt"></i> Fast &amp; responsive websites
-               </li>
-               <li><i class="fas fa-image"></i> Landing pages</li>
-               <li><i class="fab fa-google"></i> FB &amp; Google ads</li>
+               <li><i class="fas fa-palette"></i> UI Design</li>
+               <li><i class="fa fa-bolt"></i> Responsive web apps</li>
+               <li><i class="fa fa-code"></i> JAMStack</li>
             </ul>
 
             <div class="hero__cta">
@@ -102,13 +112,6 @@
             </div>
          </section>
 
-         <!-- Picture Section -->
-         <section class="gallery">
-            <div class="my-image">
-               <img src="images/me-smile.jpg" alt="Obafunsho" />
-            </div>
-         </section>
-
          <!-- About & Blog Section -->
          <section class="about-blog">
             <div class="about">
@@ -117,10 +120,10 @@
                   <i class="fa fa-arrow-right fa-2x"></i>
                </div>
                <div class="about__points">
-                  <p><i class="fa fa-code"></i> Freelance Web Developer</p>
-                  <p><i class="fa fa-feather-alt"></i> Blogger & Copywriter</p>
-                  <p><i class="fa fa-map-marker-alt"></i> Lagos, Nigeria</p>
-                  <p><i class="fa fa-at"></i> whatobathinks</p>
+                  <p><i class="fa fa-code"></i> Web Developer</p>
+                  <p><i class="fa fa-feather-alt"></i> M.A. Economics</p>
+                  <p><i class="fa fa-map-marker-alt"></i> Manitoba, Canada</p>
+                  <p><i class="fa fa-at"></i> obaadelusi</p>
                </div>
                <div class="about__stack">
                   <img
@@ -192,15 +195,23 @@
                   <i class="fa fa-arrow-right fa-2x"></i>
                </div>
                <div class="blog__content">
-                  <div style="height: 200px; background-color: orange"></div>
+                  <div class="blog__image"></div>
                   <div class="blog__links">
-                     <a href="#">
+                     <a
+                        href="https://blog.whatobathinks.com/how-i-started-my-web-development-journey"
+                        target="_blank"
+                     >
                         <p class="blog__title">
-                           How a website can help you build a brand
+                           My web development journey so far
                         </p>
                      </a>
 
-                     <a href="#" class="blog__link">Read post</a>
+                     <a
+                        href="https://blog.whatobathinks.com"
+                        class="blog__link"
+                        target="_blank"
+                        >Read post</a
+                     >
                   </div>
                </div>
             </div>
@@ -209,7 +220,7 @@
          <!-- Offer & Testimonial Section -->
          <section class="offer-testimonial">
             <div class="offer">
-               <h2>For small businesses and online creators</h2>
+               <h2>For creators & small businesses</h2>
                <h3>Here's what you will get:</h3>
                <div class="offer__points">
                   <li><span>1</span>Custom designs you will love.</li>
@@ -230,7 +241,7 @@
                      website."
                   </p>
                   <p class="testimonial__name">Olayinka Alabi</p>
-                  <p class="testimonial__position">CEO, EVERLUSH NIGERIA</p>
+                  <p class="testimonial__position">EVERLUSH NIGERIA</p>
                </div>
             </div>
          </section>
@@ -273,16 +284,6 @@
                   alt="Everlush Blog & Landing Page"
                />
                <figcaption>Everlush Blog & Landing Page</figcaption>
-            </figure>
-
-            <figure>
-               <p><strong>Dashboard UI Design</strong></p>
-               <p>Tools: Adobe XD</p>
-               <img
-                  src="images/everlush-dashboard-portfolio.png"
-                  alt="Everlush Dashboard Design"
-               />
-               <figcaption>Everlush Dashboard Design</figcaption>
             </figure>
 
             <p>
@@ -336,53 +337,15 @@
             </div>
          </section>
 
-         <!-- FAQ Section -->
-         <section class="faq">
-            <div class="left-side">
-               <h2 class="faq__heading">FAQs</h2>
-               <p class="faq__description">Some questions you might have.</p>
-               <img src="images/me-suit-smiling.png" alt="Obafunsho" />
-            </div>
-            <div class="right-side">
-               <details class="question-answer" open>
-                  <summary class="faq__question">
-                     How long does it take to build a website?
-                  </summary>
-                  <p class="faq__answer">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Provident natus reiciendis magnam nulla deserunt eligendi
-                     perferendis perspiciatis, iusto cupiditate excepturi sint
-                     dignissimos dolorem libero, laborum quasi. Cum excepturi
-                     ipsum iusto.
-                  </p>
-               </details>
-               <details class="question-answer">
-                  <summary class="faq__question">
-                     How much do you charge for a website?
-                  </summary>
-                  <p class="faq__answer">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Provident natus reiciendis magnam nulla deserunt eligendi
-                     perferendis perspiciatis, iusto cupiditate excepturi sint
-                     dignissimos dolorem libero, laborum quasi. Cum excepturi
-                     ipsum iusto.
-                  </p>
-               </details>
-               <details class="question-answer">
-                  <summary class="faq__question">
-                     Do you teach web development?
-                  </summary>
-                  <p class="faq__answer">
-                     Not yet. But you can check out my blog @hashnode:
-                     <a href="https://blog.whatobathinks.com" target="_blank"
-                        >blog.whatobathinks.com</a
-                     >
-                  </p>
-               </details>
+         <!-- Picture Section -->
+         <section class="gallery">
+            <div class="my-image">
+               <img src="images/me-smile.jpg" alt="Obafunsho" />
             </div>
          </section>
 
-         <section class="contact">
+         <!-- Contact Section -->
+         <section class="contact" id="contact">
             <form action="#" class="form">
                <h2 class="form__heading">Say Hi!</h2>
 
@@ -406,12 +369,12 @@
                   <label for="email" class="form__label">Message</label>
                </div>
 
-               <button class="form__button">Send</button> 
+               <button class="form__button">Send</button>
             </form>
          </section>
 
          <!-- Footer -->
-         <footer class="footer" id="contact">
+         <footer class="footer">
             <a href="" class="footer__link">About</a>
             <a href="" class="footer__link">Blog</a>
             <a href="" class="footer__link">Portfolio</a>
