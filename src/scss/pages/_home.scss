@@ -74,8 +74,8 @@
 
    .about,
    .blog {
-      margin: 20px 0;
-      max-width: 560px;
+      margin: 20px auto;
+      max-width: 600px;
    }
 
    &__heading {
@@ -107,7 +107,6 @@
          display: flex;
          flex-wrap: wrap;
          gap: 15px;
-         // max-width: 500px;
       }
    }
 
@@ -247,6 +246,9 @@
    padding: 60px 20px;
    border-top: 1px solid $sec-clr;
    border-bottom: 1px solid $sec-clr;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 
    &__heading,
    &__description {
@@ -256,15 +258,13 @@
       margin-bottom: 1em;
    }
    &__slides {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
+      max-width: 1100px;
+      display: grid;
       gap: 20px;
+      grid-template-columns: 1fr;
+
       .slide {
          padding: 80px 30px 30px;
-         max-width: 340px;
-         height: 100% !important;
          background-color: #fff;
          border-radius: 16px;
          box-shadow: 0px 5px 12px #00000025;
@@ -303,10 +303,57 @@
    background-color: $main-clr-100;
    border-top: 1px solid $sec-clr;
    padding: 60px 20px;
-   .form {
-      margin: auto;
-      &__heading {
-         margin-bottom: 1em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   &__channel {
+      background-color: #fff;
+      border: 2px solid $sec-clr;
+      padding: 1em 1.5em;
+      border-radius: 1rem;
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1em;
+      text-decoration: none;
+      transition: background-color 200ms ease-in-out,
+         border-color 200ms ease-in-out, transform 200ms ease-out;
+   }
+
+   &__channel:hover {
+      background-color: $main-clr-100;
+      border-color: $main-clr;
+      transform: scale(1.02);
+
+      .contact__icon {
+         background-color: #fff;
+      }
+
+      i {
+         color: $sec-clr;
+      }
+   }
+
+   &__text {
+      font-size: $big-p;
+      font-weight: 600;
+      color: #000;
+   }
+
+   &__icon {
+      background-color: $main-clr-100;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      border-radius: 50%;
+      transition: background-color 200ms ease-out;
+      i {
+         margin-top: 15px;
+         font-size: 1.25rem;
       }
    }
 }
@@ -333,7 +380,10 @@
    .about-blog {
       flex-direction: row;
       gap: 3em;
-      padding: 100px 20px;
+      padding: 100px 1em;
+      max-width: 1300px;
+      margin-left: auto;
+      margin-right: auto;
 
       .about,
       .blog {
@@ -356,6 +406,10 @@
 
    .services {
       padding: 120px 20px;
+
+      &__slides {
+         grid-template-columns: repeat(3, 1fr);
+      }
    }
 
    .faq {
@@ -373,25 +427,15 @@
    }
 }
 
-@media (max-width: 1200px) {
-   .swiper-container {
-      max-width: 900px;
-   }
-}
-
 /* Large Desktop */
 @media (min-width: 1300px) {
    .hero {
       height: 81vh;
    }
+
    .portfolio {
       p:nth-of-type(2) {
          margin-left: 100px;
-      }
-   }
-   .services {
-      .swiper-container {
-         width: 1200px;
       }
    }
 }
