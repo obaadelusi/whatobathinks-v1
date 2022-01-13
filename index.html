@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oba Adelusi - whatobathinks - Web Developer in Canada</title>
-    <meta name="description" content="Obafunsho Adelusi is a Web Developer in Canada. He uses software to help solve business problems. View portfolio." />
-    <link rel="shortcut icon" href="images/whatobathinks-favicon.png" type="image/x-icon" />
+    <meta name="description" content="Obafunsho Adelusi is a Frontend Developer in Canada. He uses software to help solve business problems. View portfolio." />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/f596fb3afb.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -34,11 +34,10 @@
         <span></span>
       </div>
       <div class="logo">
-        <img src="images/whatobathinks-logo.png" alt="logo" />
+        <img src="images/logo.png" alt="logo" />
       </div>
       <nav class="navbar__links">
         <a href="/" class="navbar__link">Home</a>
-        <!-- switch in dev. /views/blog-archive.html -->
         <a href="https://blog.whatobathinks.com" class="navbar__link">Blog</a>
         <a href="#portfolio" class="navbar__link">Portfolio</a>
         <a href="#contact" class="navbar__link">Contact</a>
@@ -53,7 +52,7 @@
     <main>
       <section class="hero">
         <div class="hero__profile">
-          <img src="images/adelusi-obafunsho-web-developer-png.png" alt="obafunsho" style="width: 120px" />
+          <img src="images/adelusi-obafunsho-web-developer.png" alt="obafunsho" style="width: 120px" />
           <p><span>OBA</span><br />ADELUSI</p>
         </div>
 
@@ -110,7 +109,7 @@
           <div class="blog__content">
             <div class="blog__image"></div>
             <div class="blog__links">
-              <a href="https://blog.whatobathinks.com/how-i-started-my-web-development-journey" target="_blank">
+              <a href="https://blog.whatobathinks.com/how-i-started-my-web-development-journey" target="_blank" rel="noopener noreferrer">
                 <p class="blog__title">My web development journey so far</p>
               </a>
 
@@ -145,6 +144,16 @@
       <section class="portfolio" id="portfolio">
         <h2 class="portfolio__heading">Portfolio</h2>
         <p class="portfolio__description">Recent projects</p>
+
+        <figure>
+          <p><strong>Website UI Design</strong></p>
+          <p>
+            Tools: React/React router • Deployed on Netlify. • <a href="https://everlush.netlify.app/products">Link <i class="fas fa-external-link-alt"></i></a>
+          </p>
+          <img src="images/everlush-erp-app.png" alt="Everlush ERP dashboard" />
+          <figcaption>Everlush ERP Product Page</figcaption>
+        </figure>
+
         <figure>
           <p><strong>Website UI Design</strong></p>
           <p>Tools: Adobe XD</p>
@@ -154,22 +163,14 @@
 
         <figure>
           <p><strong>eCommerce Website Development</strong></p>
-          <p>Tools: Adobe XD, WordPress, WooCommerce</p>
+          <p>
+            Tools: Adobe XD, WordPress, WooCommerce • <a href="https://everlush.ng">Link <i class="fas fa-external-link-alt"></i></a>
+          </p>
           <img src="images/everlush-web-&-mobile.png" alt="Everlush Website Desktop & Mobile" />
           <figcaption>Everlush Website Desktop & Mobile</figcaption>
         </figure>
 
-        <figure>
-          <img src="images/everlush-store-product-mobile.png" alt="Everlush Product Page" />
-          <figcaption>Everlush Product Pages</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/everlush-blog-landing-page-mobile.png" alt="Everlush Blog & Landing Page" />
-          <figcaption>Everlush Blog & Landing Page</figcaption>
-        </figure>
-
-        <p>Click <a href="#">here</a> to see more designs and projects I'm working on.</p>
+        <p class="portfolio__more-text">Click <a href="#">here</a> to see more designs and projects I'm working on.</p>
       </section>
 
       <!-- Services Section -->
