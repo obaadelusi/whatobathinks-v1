@@ -2,59 +2,60 @@
 @use '../abstracts' as *;
 
 body {
-   font-family: $font-stack;
+  font-family: $font-stack;
 }
 
 h1,
 h2,
 h3 {
-   font-family: $heading-font;
-   color: $main-clr;
+  font-family: $heading-font;
+  color: $main-clr;
 }
 
 h1 {
-   font-size: $h1;
-   font-weight: 700;
-   line-height: 1;
-   margin-bottom: 0.3em;
+  font-size: $h1;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -4px;
+  margin-bottom: 0.3em;
 }
 
 h2 {
-   font-size: $h2;
-   font-weight: 600;
-   line-height: 1;
-   margin-bottom: 0.3em;
+  font-size: $h2;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 0.3em;
 }
 
 h3 {
-   font-size: $h3;
-   font-weight: 400;
-   line-height: 1.15;
-   margin-bottom: 0.3em;
+  font-size: $h3;
+  font-weight: 400;
+  line-height: 1.15;
+  margin-bottom: 0.3em;
 }
 
 /* List */
 p,
 li {
-   font-size: $p;
-   font-weight: 400;
-   line-height: 1.4;
-   color: $text-grey;
+  font-size: $p;
+  font-weight: 400;
+  line-height: 1.4;
+  color: $text-grey;
 }
 
 /* Links */
 a {
-   font-size: $a-link;
-   color: $main-clr;
-   transition: text-decoration-color 200ms ease-in-out;
-   &:hover {
-      text-decoration-color: $sec-clr;
-   }
+  font-size: $a-link;
+  color: $main-clr;
+  transition: text-decoration-color 200ms ease-in-out;
+  &:hover {
+    text-decoration-color: $sec-clr;
+  }
 }
 
 // Image caption
 figcaption {
-   text-align: center;
-   font-size: 0.875rem;
-   color: $text-grey;
+  text-align: center;
+  font-size: 0.875rem;
+  color: $text-grey;
 }

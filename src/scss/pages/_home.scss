@@ -26,8 +26,13 @@
     }
   }
 
-  &__role p {
-    font-size: $big-p;
+  &__role {
+    h1 {
+      color: #181818;
+    }
+    p {
+      font-size: $big-p;
+    }
   }
 
   &__points {
